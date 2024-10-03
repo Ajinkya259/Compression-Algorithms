@@ -29,7 +29,7 @@ def compress_file(algorithm):
         # Extract the file name without the extension
         base_name = os.path.basename(input_file)
         compressed_file = os.path.join('data', f'{base_name}.{algorithm.lower()}')
-
+        
         try:
             if algorithm == 'Shannon-Fano':
                 tree = compress_file_shannon_fano(input_file, compressed_file)
