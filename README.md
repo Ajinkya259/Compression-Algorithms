@@ -57,7 +57,7 @@ LZW (Lempel-Ziv-Welch) is a dictionary-based compression algorithm that replaces
 3. Shannon-Fano
 Shannon-Fano is a variable-length prefix coding algorithm that encodes symbols based on their frequencies, providing better compression for frequently occurring symbols.
 
-4.Hybrid
+4. Hybrid
 A algorithm implement while considersing the disadv of LZ77,lZW,Shannon-Fano.
 
 ## Advantages of Hybrid Compression Technology
